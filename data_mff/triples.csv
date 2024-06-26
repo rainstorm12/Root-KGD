@@ -1,0 +1,167 @@
+﻿Node1 Description,Node1 Type,Relation,Node2 Description,Node2 Type
+CO500,Device,Output,T100,Device
+T100,Device,Output,PO1,Device
+PO1,Device,Output,VC101,Device
+VC101,Device,Output,Stream 1,Stream
+CW500,Device,Output,T200,Device
+T200,Device,Output,PO2,Device
+PO2,Device,Output,VC201,Device
+VC201,Device,Output,Stream 2,Stream
+R300,Device,Output,VC302,Device
+VC302,Device,Output,Stream 3,Stream
+Stream 1,Stream,Output,Stream 10 bottom,Stream
+Stream 2,Stream,Output,Stream 10 bottom,Stream
+Stream 3,Stream,Output,Stream 10 bottom,Stream
+Stream 1,Stream,Output,Stream 4 bottom,Stream
+Stream 2,Stream,Output,Stream 4 bottom,Stream
+Stream 3,Stream,Output,Stream 4 bottom,Stream
+Stream 10 bottom,Stream,Output,Stream 10,Stream
+Stream 10,Stream,Output,Stream 10 top,Stream
+Stream 4 bottom,Stream,Output,Stream 4,Stream
+Stream 4,Stream,Output,Stream 4 top,Stream
+Stream 10 top,Stream,Output,Stream 5,Stream
+Stream 5,Stream,Output,VC404,Device
+VC404,Device,Output,2 Phase Separator,Device
+Stream 4 top,Stream,Output,Stream 11,Stream
+Stream 11,Stream,Output,VC403,Device
+VC403,Device,Output,2 Phase Separator,Device
+2 Phase Separator,Device,Output,VC401,Device
+VC401,Device,Output,Stream 6,Stream
+Stream 6,Stream,Output,3 Phase Separator,Device
+2 Phase Separator,Device,Output,Stream 7,Stream
+Stream 7,Stream,Output,VC402,Device
+VC402,Device,Output,3 Phase Separator,Device
+3 Phase Separator,Device,Output,Stream 8,Stream
+3 Phase Separator,Device,Output,Stream 9,Stream
+Stream 8,Stream,Output,CW500,Device
+Stream 9,Stream,Output,CO500,Device
+Stream 3,Stream,State,x1,Variable
+x1,Variable,State_of,Stream 3,Stream
+Stream 10 bottom,Stream,State,x2,Variable
+x2,Variable,State_of,Stream 10 bottom,Stream
+Stream 10 top,Stream,State,x3,Variable
+x3,Variable,State_of,Stream 10 top,Stream
+2 Phase Separator,Device,State,x4,Variable
+x4,Variable,State_of,2 Phase Separator,Device
+3 Phase Separator,Device,State,x5,Variable
+x5,Variable,State_of,3 Phase Separator,Device
+Stream 10,Stream,State,x6,Variable
+x6,Variable,State_of,Stream 10,Stream
+VC404,Device,State,x7,Variable
+x7,Variable,State_of,VC404,Device
+2 Phase Separator,Device,State,x7,Variable
+x7,Variable,State_of,2 Phase Separator,Device
+Stream 3,Stream,State,x8,Variable
+x8,Variable,State_of,Stream 3,Stream
+Stream 1,Stream,State,x9,Variable
+x9,Variable,State_of,Stream 1,Stream
+Stream 10 top,Stream,State,x10,Variable
+x10,Variable,State_of,Stream 10 top,Stream
+2 Phase Separator,Device,State,x11,Variable
+x11,Variable,State_of,2 Phase Separator,Device
+Stream 7,Stream,State,x12,Variable
+x12,Variable,State_of,Stream 7,Stream
+Stream 10 top,Stream,State,x13,Variable
+x13,Variable,State_of,Stream 10 top,Stream
+Stream 7,Stream,State,x14,Variable
+x14,Variable,State_of,Stream 7,Stream
+Stream 1,Stream,State,x15,Variable
+x15,Variable,State_of,Stream 1,Stream
+Stream 10 top,Stream,State,x16,Variable
+x16,Variable,State_of,Stream 10 top,Stream
+Stream 7,Stream,State,x17,Variable
+x17,Variable,State_of,Stream 7,Stream
+Stream 1,Stream,State,x18,Variable
+x18,Variable,State_of,Stream 1,Stream
+3 Phase Separator,Device,State,x19,Variable
+x19,Variable,State_of,3 Phase Separator,Device
+3 Phase Separator,Device,State,x20,Variable
+x20,Variable,State_of,3 Phase Separator,Device
+VC302,Device,State,x21,Variable
+x21,Variable,State_of,VC302,Device
+VC101,Device,State,x22,Variable
+x22,Variable,State_of,VC101,Device
+PO1,Device,State,x23,Variable
+x23,Variable,State_of,PO1,Device
+Stream 4 bottom,Stream,State,x24,Variable
+x24,Variable,State_of,Stream 4 bottom,Stream
+CO500,Device,Contain,oil,Substance
+oil,Substance,Contained_by,CO500,Device
+CO500,Device,Contain,water,Substance
+water,Substance,Contained_by,CO500,Device
+CW500,Device,Contain,oil,Substance
+oil,Substance,Contained_by,CW500,Device
+CW500,Device,Contain,water,Substance
+water,Substance,Contained_by,CW500,Device
+T100,Device,Contain,water,Substance
+water,Substance,Contained_by,T100,Device
+T200,Device,Contain,oil,Substance
+oil,Substance,Contained_by,T200,Device
+PO1,Device,Contain,water,Substance
+water,Substance,Contained_by,PO1,Device
+PO2,Device,Contain,oil,Substance
+oil,Substance,Contained_by,PO2,Device
+VC101,Device,Contain,water,Substance
+water,Substance,Contained_by,VC101,Device
+VC201,Device,Contain,oil,Substance
+oil,Substance,Contained_by,VC201,Device
+Stream 1,Stream,Contain,water,Substance
+water,Substance,Contained_by,Stream 1,Stream
+Stream 2,Stream,Contain,oil,Substance
+oil,Substance,Contained_by,Stream 2,Stream
+R300,Device,Contain,air,Substance
+air,Substance,Contained_by,R300,Device
+VC302,Device,Contain,air,Substance
+air,Substance,Contained_by,VC302,Device
+Stream 3,Stream,Contain,air,Substance
+air,Substance,Contained_by,Stream 3,Stream
+Stream 10,Stream,Contain,water,Substance
+water,Substance,Contained_by,Stream 10,Stream
+Stream 10,Stream,Contain,oil,Substance
+oil,Substance,Contained_by,Stream 10,Stream
+Stream 10,Stream,Contain,air,Substance
+air,Substance,Contained_by,Stream 10,Stream
+Stream 4,Stream,Contain,water,Substance
+water,Substance,Contained_by,Stream 4,Stream
+Stream 4,Stream,Contain,oil,Substance
+oil,Substance,Contained_by,Stream 4,Stream
+Stream 4,Stream,Contain,air,Substance
+air,Substance,Contained_by,Stream 4,Stream
+VC403,Device,Contain,water,Substance
+water,Substance,Contained_by,VC403,Device
+VC403,Device,Contain,oil,Substance
+oil,Substance,Contained_by,VC403,Device
+VC403,Device,Contain,air,Substance
+air,Substance,Contained_by,VC403,Device
+VC404,Device,Contain,water,Substance
+water,Substance,Contained_by,VC404,Device
+VC404,Device,Contain,oil,Substance
+oil,Substance,Contained_by,VC404,Device
+VC404,Device,Contain,air,Substance
+air,Substance,Contained_by,VC404,Device
+2 Phase Separator,Device,Contain,water,Substance
+water,Substance,Contained_by,2 Phase Separator,Device
+2 Phase Separator,Device,Contain,oil,Substance
+oil,Substance,Contained_by,2 Phase Separator,Device
+VC401,Device,Contain,air,Substance
+air,Substance,Contained_by,VC401,Device
+Stream 6,Stream,Contain,air,Substance
+air,Substance,Contained_by,Stream 6,Stream
+Stream 7,Stream,Contain,water,Substance
+water,Substance,Contained_by,Stream 7,Stream
+Stream 7,Stream,Contain,oil,Substance
+oil,Substance,Contained_by,Stream 7,Stream
+VC402,Device,Contain,water,Substance
+water,Substance,Contained_by,VC402,Device
+VC402,Device,Contain,oil,Substance
+oil,Substance,Contained_by,VC402,Device
+3 Phase Separator,Device,Contain,water,Substance
+water,Substance,Contained_by,3 Phase Separator,Device
+3 Phase Separator,Device,Contain,oil,Substance
+oil,Substance,Contained_by,3 Phase Separator,Device
+3 Phase Separator,Device,Contain,air,Substance
+air,Substance,Contained_by,3 Phase Separator,Device
+Stream 8,Stream,Contain,water,Substance
+water,Substance,Contained_by,Stream 8,Stream
+Stream 9,Stream,Contain,oil,Substance
+oil,Substance,Contained_by,Stream 9,Stream

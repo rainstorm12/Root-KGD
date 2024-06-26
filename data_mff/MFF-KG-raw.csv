@@ -1,0 +1,102 @@
+﻿Node1,relation,Node2
+CO500,Output,T100
+T100,Output,PO1
+PO1,Output,VC101
+VC101,Output,Stream 1
+CW500,Output,T200
+T200,Output,PO2
+PO2,Output,VC201
+VC201,Output,Stream 2
+R300,Output,VC302
+VC302,Output,Stream 3
+Stream 1,Output,Stream 10 bottom
+Stream 2,Output,Stream 10 bottom
+Stream 3,Output,Stream 10 bottom
+Stream 1,Output,Stream 4 bottom
+Stream 2,Output,Stream 4 bottom
+Stream 3,Output,Stream 4 bottom
+Stream 10 bottom,Output,Stream 10
+Stream 10,Output,Stream 10 top
+Stream 4 bottom,Output,Stream 4
+Stream 4,Output,Stream 4 top
+Stream 10 top,Output,Stream 5
+Stream 5,Output,VC404
+VC404,Output,2 Phase Separator
+Stream 4 top,Output,Stream 11
+Stream 11,Output,VC403
+VC403,Output,2 Phase Separator
+2 Phase Separator,Output,VC401
+VC401,Output,Stream 6
+Stream 6,Output,3 Phase Separator
+2 Phase Separator,Output,Stream 7
+Stream 7,Output,VC402
+VC402,Output,3 Phase Separator
+3 Phase Separator,Output,Stream 8
+3 Phase Separator,Output,Stream 9
+Stream 8,Output,CW500
+Stream 9,Output,CO500
+Stream 3,State,x1
+Stream 10 bottom,State,x2
+Stream 10 top,State,x3
+2 Phase Separator,State,x4
+3 Phase Separator,State,x5
+Stream 10,State,x6
+VC404,State,x7
+2 Phase Separator,State,x7
+Stream 3,State,x8
+Stream 1,State,x9
+Stream 10 top,State,x10
+2 Phase Separator,State,x11
+Stream 7,State,x12
+Stream 10 top,State,x13
+Stream 7,State,x14
+Stream 1,State,x15
+Stream 10 top,State,x16
+Stream 7,State,x17
+Stream 1,State,x18
+3 Phase Separator,State,x19
+3 Phase Separator,State,x20
+VC302,State,x21
+VC101,State,x22
+PO1,State,x23
+Stream 4 bottom,State,x24
+CO500,Contain,oil
+CO500,Contain,water
+CW500,Contain,oil
+CW500,Contain,water
+T100,Contain,water
+T200,Contain,oil
+PO1,Contain,water
+PO2,Contain,oil
+VC101,Contain,water
+VC201,Contain,oil
+Stream 1,Contain,water
+Stream 2,Contain,oil
+R300,Contain,air
+VC302,Contain,air
+Stream 3,Contain,air
+Stream 10,Contain,water
+Stream 10,Contain,oil
+Stream 10,Contain,air
+Stream 4,Contain,water
+Stream 4,Contain,oil
+Stream 4,Contain,air
+VC403,Contain,water
+VC403,Contain,oil
+VC403,Contain,air
+VC404,Contain,water
+VC404,Contain,oil
+VC404,Contain,air
+2 Phase Separator,Contain,water
+2 Phase Separator,Contain,oil
+VC401,Contain,air
+Stream 6,Contain,air
+Stream 7,Contain,water
+Stream 7,Contain,oil
+VC402,Contain,water
+VC402,Contain,oil
+3 Phase Separator,Contain,water
+3 Phase Separator,Contain,oil
+3 Phase Separator,Contain,air
+Stream 8,Contain,water
+Stream 9,Contain,oil

@@ -1,0 +1,303 @@
+﻿Node1,relation,Node2
+Reactor,Input,x6
+Reactor,State,x7
+Reactor,State,x8
+Reactor,State,x9
+Reactor,State,x21
+Reactor,Input,x23
+Reactor,Input,x24
+Reactor,Input,x25
+Reactor,Input,x26
+Reactor,Input,x27
+Reactor,Input,x28
+Reactor,State,x51
+Reactor,State,x53
+Separator,State,x11
+Separator,State,x12
+Separator,State,x13
+Separator,Output,x14
+Separator,State,x22
+Separator,Output,x29
+Separator,Output,x30
+Separator,Output,x31
+Separator,Output,x32
+Separator,Output,x33
+Separator,Output,x34
+Separator,Output,x35
+Separator,Output,x36
+Separator,Output,x47
+Separator,Output,x48
+Stripper,State,x15
+Stripper,State,x16
+Stripper,State,x18
+Stripper,Output,x17
+Stripper,State,x19
+Stripper,Output,x37
+Stripper,Output,x38
+Stripper,Output,x39
+Stripper,Output,x40
+Stripper,Output,x41
+Stripper,Input,x48
+Stripper,Output,x49
+Stripper,State,x50
+Compressor,Output,x5
+Compressor,State,x20
+Compressor,State,x46
+Condenser,State,x52
+Stream 1,State,x1
+Stream 1,State,x44
+Stream 2,State,x2
+Stream 2,State,x42
+Stream 3,State,x3
+Stream 3,State,x43
+Stream 4,State,x4
+Stream 4,State,x45
+Stream 6,State,x6
+Stream 6,State,x23
+Stream 6,State,x24
+Stream 6,State,x25
+Stream 6,State,x26
+Stream 6,State,x27
+Stream 6,State,x28
+Stream 8,State,x5
+Stream 9,State,x10
+Stream 9,State,x47
+Stream 9,State,x29
+Stream 9,State,x30
+Stream 9,State,x31
+Stream 9,State,x32
+Stream 9,State,x33
+Stream 9,State,x34
+Stream 9,State,x35
+Stream 9,State,x36
+Stream 10,State,x14
+Stream 10,State,x48
+Stream 11,State,x17
+Stream 11,State,x49
+Stream 11,State,x37
+Stream 11,State,x38
+Stream 11,State,x39
+Stream 11,State,x40
+Stream 11,State,x41
+Stream 12,State,x21
+Stream 12,State,x51
+Stream 13,State,x52
+Stream 1,Output,Stream 6
+Stream 2,Output,Stream 6
+Stream 3,Output,Stream 6
+Stream 4,Output,Stripper
+Stream 14,Input,Condenser
+Stream 14,Output,Separator
+Stream 6,Input,Stream 1
+Stream 6,Input,Stream 2
+Stream 6,Input,Stream 3
+Stream 6,Input,Stream 8
+Stream 6,Output,Reactor
+Stream 7,Output,Condenser
+Stream 7,Input,Reactor
+Stream 8,Input,Stream 5
+Stream 8,Input,Compressor
+Stream 8,Output,Stream 6
+Stream 9,Input,Separator
+Stream 10,Input,Separator
+Stream 10,Output,Stripper
+Stream 11,Input,Stripper
+Stream 12,Input,Reactor
+Stream 13,State_of,Condenser
+Stream 5,Input,Stripper
+Stream 5,Output,Stream 8
+Reactor,Input,Stream 6
+Reactor,Output,Stream 7
+Reactor,Output,Stream 12
+Separator,Input,Stream 14
+Separator,Output,Stream 9
+Separator,Output,Compressor
+Separator,Output,Stream 10
+Stripper,Input,Stream 4
+Stripper,Input,Stream 10
+Stripper,Output,Stream 11
+Stripper,Output,Stream 5
+Compressor,Output,Stream 8
+Compressor,Input,Separator
+Condenser,Input,Stream 7
+Condenser,Output,Stream 14
+Condenser,State,Stream 13
+x7,State_of,Reactor
+x8,State_of,Reactor
+x9,State_of,Reactor
+x53,State_of,Reactor
+x11,State_of,Separator
+x12,State_of,Separator
+x13,State_of,Separator
+x15,State_of,Stripper
+x16,State_of,Stripper
+x18,State_of,Stripper
+x20,State_of,Compressor
+x1,State_of,Stream 1
+x44,State_of,Stream 1
+x2,State_of,Stream 2
+x42,State_of,Stream 2
+x3,State_of,Stream 3
+x43,State_of,Stream 3
+x4,State_of,Stream 4
+x45,State_of,Stream 4
+x6,State_of,Stream 6
+x23,State_of,Stream 6
+x24,State_of,Stream 6
+x25,State_of,Stream 6
+x26,State_of,Stream 6
+x27,State_of,Stream 6
+x28,State_of,Stream 6
+x5,State_of,Stream 8
+x10,State_of,Stream 9
+x47,State_of,Stream 9
+x29,State_of,Stream 9
+x30,State_of,Stream 9
+x31,State_of,Stream 9
+x32,State_of,Stream 9
+x33,State_of,Stream 9
+x34,State_of,Stream 9
+x35,State_of,Stream 9
+x36,State_of,Stream 9
+x14,State_of,Stream 10
+x48,State_of,Stream 10
+x17,State_of,Stream 11
+x49,State_of,Stream 11
+x37,State_of,Stream 11
+x38,State_of,Stream 11
+x39,State_of,Stream 11
+x40,State_of,Stream 11
+x41,State_of,Stream 11
+x21,State_of,Stream 12
+x51,State_of,Stream 12
+x52,State_of,Stream 13
+A,Generate,G
+C,Generate,G
+D,Generate,G
+A,Generate,H
+C,Generate,H
+E,Generate,H
+A,Generate,F
+E,Generate,F
+D,Generate,F
+G,Generated_from,A
+G,Generated_from,C
+G,Generated_from,D
+H,Generated_from,A
+H,Generated_from,C
+H,Generated_from,E
+F,Generated_from,A
+F,Generated_from,E
+F,Generated_from,D
+A,Contained_by,x1
+A,Contained_by,x44
+A,Contained_by,Stream 1
+D,Contained_by,x2
+D,Contained_by,x42
+D,Contained_by,Stream 2
+E,Contained_by,x3
+E,Contained_by,x43
+E,Contained_by,Stream 3
+A,Contained_by,x4
+A,Contained_by,x45
+A,Contained_by,Stream 4
+B,Contained_by,x4
+B,Contained_by,x45
+B,Contained_by,Stream 4
+C,Contained_by,x4
+C,Contained_by,x45
+C,Contained_by,Stream 4
+A,Contained_by,x23
+B,Contained_by,x24
+C,Contained_by,x25
+D,Contained_by,x26
+E,Contained_by,x27
+F,Contained_by,x28
+A,Contained_by,x29
+B,Contained_by,x30
+C,Contained_by,x31
+D,Contained_by,x32
+E,Contained_by,x33
+F,Contained_by,x34
+G,Contained_by,x35
+H,Contained_by,x36
+D,Contained_by,x37
+E,Contained_by,x38
+F,Contained_by,x39
+G,Contained_by,x40
+H,Contained_by,x41
+A,Contained_by,Stream 6
+B,Contained_by,Stream 6
+C,Contained_by,Stream 6
+D,Contained_by,Stream 6
+E,Contained_by,Stream 6
+F,Contained_by,Stream 6
+A,Contained_by,Stream 9
+B,Contained_by,Stream 9
+C,Contained_by,Stream 9
+D,Contained_by,Stream 9
+E,Contained_by,Stream 9
+F,Contained_by,Stream 9
+G,Contained_by,Stream 9
+H,Contained_by,Stream 9
+D,Contained_by,Stream 11
+E,Contained_by,Stream 11
+F,Contained_by,Stream 11
+G,Contained_by,Stream 11
+H,Contained_by,Stream 11
+x1,Contain,A
+x44,Contain,A
+Stream 1,Contain,A
+x2,Contain,D
+x42,Contain,D
+Stream 2,Contain,D
+x3,Contain,E
+x43,Contain,E
+Stream 3,Contain,E
+x4,Contain,A
+x45,Contain,A
+Stream 4,Contain,A
+x4,Contain,B
+x45,Contain,B
+Stream 4,Contain,B
+x4,Contain,C
+x45,Contain,C
+Stream 4,Contain,C
+x23,Contain,A
+x24,Contain,B
+x25,Contain,C
+x26,Contain,D
+x27,Contain,E
+x28,Contain,F
+x29,Contain,A
+x30,Contain,B
+x31,Contain,C
+x32,Contain,D
+x33,Contain,E
+x34,Contain,F
+x35,Contain,G
+x36,Contain,H
+x37,Contain,D
+x38,Contain,E
+x39,Contain,F
+x40,Contain,G
+x41,Contain,H
+Stream 6,Contain,A
+Stream 6,Contain,B
+Stream 6,Contain,C
+Stream 6,Contain,D
+Stream 6,Contain,E
+Stream 6,Contain,F
+Stream 9,Contain,A
+Stream 9,Contain,B
+Stream 9,Contain,C
+Stream 9,Contain,D
+Stream 9,Contain,E
+Stream 9,Contain,F
+Stream 9,Contain,G
+Stream 9,Contain,H
+Stream 11,Contain,D
+Stream 11,Contain,E
+Stream 11,Contain,F
+Stream 11,Contain,G
+Stream 11,Contain,H

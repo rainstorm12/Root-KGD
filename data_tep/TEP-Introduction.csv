@@ -1,0 +1,74 @@
+﻿Index,Variable Number,Variable Description,Variable Type1,Variable Units,Variable Type2,变量描述,变量类型
+x1,XMEAS(1),A feed (stream 1),Flow,kscmh,Process measurement variable,A进料（流1）,过程测量变量
+x2,XMEAS(2),D feed (stream 2),Flow,kgh-1,Process measurement variable,D进料（流2）,过程测量变量
+x3,XMEAS(3),E feed (stream 3),Flow,kgh-1,Process measurement variable,E进料（流3）,过程测量变量
+x4,XMEAS(4),A and C feed (stream 4),Flow,kscmh,Process measurement variable,A和C总进料（流4）,过程测量变量
+x5,XMEAS(5),Recycle flow (stream 8),Flow,kscmh,Process measurement variable,再循环流量（流8）,过程测量变量
+x6,XMEAS(6),Reactor feed rate (stream 6),Flow,kscmh,Process measurement variable,反应器进料速度,过程测量变量
+x7,XMEAS(7),Reactor pressure,Pressure,KPa,Process measurement variable,反应器压力,过程测量变量
+x8,XMEAS(8),Reactor level,Level,%,Process measurement variable,反应器等级,过程测量变量
+x9,XMEAS(9),Reactor temperature,Temperature,℃,Process measurement variable,反应器温度,过程测量变量
+x10,XMEAS(10),Purge rate (stream 9),Flow,kscmh,Process measurement variable,排放速度（流9）,过程测量变量
+x11,XMEAS(11),Product separator temperature,Temperature,℃,Process measurement variable,分离器温度,过程测量变量
+x12,XMEAS(12),Product separator level,Level,%,Process measurement variable,分离器液位,过程测量变量
+x13,XMEAS(13),Product separator pressure,Pressure,KPa,Process measurement variable,分离器压力,过程测量变量
+x14,XMEAS(14),Product separator underflow (stream 10),Flow,m3h-1,Process measurement variable,分离器塔底流量,过程测量变量
+x15,XMEAS(15),Stripper level,Level,%,Process measurement variable,汽提塔等级,过程测量变量
+x16,XMEAS(16),Stripper pressure,Pressure,KPa,Process measurement variable,汽提塔压力,过程测量变量
+x17,XMEAS(17),Stripper underflow (stream 11),Flow,m3h-1,Process measurement variable,汽提塔塔底流量（流11）,过程测量变量
+x18,XMEAS(18),Stripper temperature,Temperature,℃,Process measurement variable,汽提塔温度,过程测量变量
+x19,XMEAS(19),Stripper steam flow,Flow,kgh-1,Process measurement variable,汽提塔蒸汽流量,过程测量变量
+x20,XMEAS(20),Compressor work,Power,kW,Process measurement variable,压缩机功率,过程测量变量
+x21,XMEAS(21),Reactor cooling water outlet temperature,Temperature,℃,Process measurement variable,反应器冷却水出口温度,过程测量变量
+x22,XMEAS(22),Separator cooling water outlet temperature,Temperature,℃,Process measurement variable,分离器冷却水出口温度,过程测量变量
+x23,XMEAS(23),Reactor feed A (stream 6),Component,mol%,Component measurement variable,反应器成分A（流6）,成分测量变量
+x24,XMEAS(24),Reactor feed B (stream 6),Component,mol%,Component measurement variable,反应器成分B（流6）,成分测量变量
+x25,XMEAS(25),Reactor feed C (stream 6),Component,mol%,Component measurement variable,反应器成分C（流6）,成分测量变量
+x26,XMEAS(26),Reactor feed D (stream 6),Component,mol%,Component measurement variable,反应器成分D（流6）,成分测量变量
+x27,XMEAS(27),Reactor feed E (stream 6),Component,mol%,Component measurement variable,反应器成分E（流6）,成分测量变量
+x28,XMEAS(28),Reactor feed F (stream 6),Component,mol%,Component measurement variable,反应器成分F（流6）,成分测量变量
+x29,XMEAS(29),Purge gas A (stream 9),Component,mol%,Component measurement variable,排放气体成分A（流9）,成分测量变量
+x30,XMEAS(30),Purge gas B (stream 9),Component,mol%,Component measurement variable,排放气体成分B（流9）,成分测量变量
+x31,XMEAS(31),Purge gas C (stream 9),Component,mol%,Component measurement variable,排放气体成分C（流9）,成分测量变量
+x32,XMEAS(32),Purge gas D (stream 9),Component,mol%,Component measurement variable,排放气体成分D（流9）,成分测量变量
+x33,XMEAS(33),Purge gas E (stream 9),Component,mol%,Component measurement variable,排放气体成分E（流9）,成分测量变量
+x34,XMEAS(34),Purge gas F (stream 9),Component,mol%,Component measurement variable,排放气体成分F（流9）,成分测量变量
+x35,XMEAS(35),Purge gas G (stream 9),Component,mol%,Component measurement variable,排放气体成分G（流9）,成分测量变量
+x36,XMEAS(36),Purge gas H (stream 9),Component,mol%,Component measurement variable,排放气体成分H（流9）,成分测量变量
+x37,XMEAS(37),Product D (stream 11),Component,mol%,Component measurement variable,产物成分D（流11）,成分测量变量
+x38,XMEAS(38),Product E (stream 11),Component,mol%,Component measurement variable,产物成分E（流11）,成分测量变量
+x39,XMEAS(39),Product F (stream 11),Component,mol%,Component measurement variable,产物成分F（流11）,成分测量变量
+x40,XMEAS(40),Product G (stream 11),Component,mol%,Component measurement variable,产物成分G（流11）,成分测量变量
+x41,XMEAS(41),Product H (stream 11),Component,mol%,Component measurement variable,产物成分H（流11）,成分测量变量
+x42,XMV(1),D feed flow (stream 2),Flow,kgh-1,Process operating variable,D进料量（流2）,过程操作变量
+x43,XMV(2),E feed flow (stream 3),Flow,kgh-1,Process operating variable,E进料量（流3）,过程操作变量
+x44,XMV(3),A feed flow (stream 1),Flow,kscmh,Process operating variable,A进料量（流1）,过程操作变量
+x45,XMV(4),A and C feed flow (stream 4),Flow,kscmh,Process operating variable,A和C总进料量（流4）,过程操作变量
+x46,XMV(5),Compressor recycle valve flow,Level,%,Process operating variable,压缩机再循环阀流量,过程操作变量
+x47,XMV(6),Purge valve flow(stream 9),Level,%,Process operating variable,排放阀流量（流9）,过程操作变量
+x48,XMV(7),Separator pot liquid flow (stream 10),Flow,m3h-1,Process operating variable,分离器流量（流10）,过程操作变量
+x49,XMV(8),Stripper liquid product flow (stream 11),Flow,m3h-1,Process operating variable,液体产品流量（流11）,过程操作变量
+x50,XMV(9),Stripper steam valve flow,Level,%,Process operating variable,汽提塔水流阀流量,过程操作变量
+x51,XMV(10),Reactor cooling water flow,Flow,m3h-1,Process operating variable,反应器冷却水流量,过程操作变量
+x52,XMV(11),Condenser cooling water flow,Flow,m3h-1,Process operating variable,冷凝器冷却水流量,过程操作变量
+x53,XMV(12),Agitator speed,Speed,rpm,Process operating variable,搅拌速度,过程操作变量
+i1,IDV(1),"A/C feed ratio, B composition constant (stream 4)",,,Step,A/C 进料比率，B成分不变（流4）,阶跃
+i2,IDV(2),"B composition, A/C ratio constant (stream 4)",,,Step,B成分，A/C进料比率不变（流4）,阶跃
+i3,IDV(3),D feed temperature (stream 2),,,Step,D的进料温度（流2）,阶跃
+i4,IDV(4),Reactor cooling water inlet temperature,,,Step,反应器中冷却水的入口温度,阶跃
+i5,IDV(5),Condenser cooling water inlet temperature,,,Step,冷凝器中冷却水的入口温度,阶跃
+i6,IDV(6),A feed loss (stream 1),,,Step,A进料损失（流1）,阶跃
+i7,IDV(7),C header pressure loss - reduced availability (stream 4),,,Step,C存在压力损失-可用性降低（流4）,阶跃
+i8,IDV(8),"A, B, C feed composition (stream 4)",,,Random variation,A、B、C进料成分（流4）,随机变量
+i9,IDV(9),D feed temperature (stream 2),,,Random variation,D的进料温度（流2）,随机变量
+i10,IDV(10),C feed tempetature (stream 2),,,Random variation,C的进料温度（流2）,随机变量
+i11,IDV(11),Reactor cooling water inlet temperature,,,Random variation,反应器中冷却水的入口温度,随机变量
+i12,IDV(12),Condenser cooling water inlet temperature,,,Random variation,冷凝器中冷却水的入口温度,随机变量
+i13,IDV(13),Reaction kinetics,,,Slow drift,反应状态,慢偏移
+i14,IDV(14),Reactor cooling water valve,,,Sticking,反应器冷却水阀门,粘住
+i15,IDV(15),Condensor cooling water valve,,,Sticking,冷凝器冷却水阀门,粘住
+i16,IDV(16),Unknown,,,Unknown,未知,未知
+i17,IDV(17),Unknown,,,Unknown,未知,未知
+i18,IDV(18),Unknown,,,Unknown,未知,未知
+i19,IDV(19),Unknown,,,Unknown,未知,未知
+i20,IDV(20),Unknown,,,Unknown,未知,未知

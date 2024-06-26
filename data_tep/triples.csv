@@ -1,0 +1,282 @@
+﻿Node1 Description,Node1 Type,Relation,Node2 Description,Node2 Type
+x6,Measurement,Output,Reactor,Device
+Reactor,Device,State,x7,Measurement
+x7,Measurement,State_of,Reactor,Device
+Reactor,Device,State,x8,Measurement
+x8,Measurement,State_of,Reactor,Device
+Reactor,Device,State,x9,Measurement
+x9,Measurement,State_of,Reactor,Device
+Reactor,Device,State,x21,Measurement
+x21,Measurement,State_of,Reactor,Device
+x23,Measurement,Output,Reactor,Device
+x24,Measurement,Output,Reactor,Device
+x25,Measurement,Output,Reactor,Device
+x26,Measurement,Output,Reactor,Device
+x27,Measurement,Output,Reactor,Device
+x28,Measurement,Output,Reactor,Device
+Reactor,Device,State,x51,Operating
+x51,Operating,State_of,Reactor,Device
+Reactor,Device,State,x53,Operating
+x53,Operating,State_of,Reactor,Device
+Separator,Device,State,x11,Measurement
+x11,Measurement,State_of,Separator,Device
+Separator,Device,State,x12,Measurement
+x12,Measurement,State_of,Separator,Device
+Separator,Device,State,x13,Measurement
+x13,Measurement,State_of,Separator,Device
+Separator,Device,Output,x14,Measurement
+Separator,Device,State,x22,Measurement
+x22,Measurement,State_of,Separator,Device
+Separator,Device,Output,x29,Measurement
+Separator,Device,Output,x30,Measurement
+Separator,Device,Output,x31,Measurement
+Separator,Device,Output,x32,Measurement
+Separator,Device,Output,x33,Measurement
+Separator,Device,Output,x34,Measurement
+Separator,Device,Output,x35,Measurement
+Separator,Device,Output,x36,Measurement
+Separator,Device,Output,x47,Operating
+Separator,Device,Output,x48,Operating
+Stripper,Device,State,x15,Measurement
+x15,Measurement,State_of,Stripper,Device
+Stripper,Device,State,x16,Measurement
+x16,Measurement,State_of,Stripper,Device
+Stripper,Device,State,x18,Measurement
+x18,Measurement,State_of,Stripper,Device
+Stripper,Device,Output,x17,Measurement
+Stripper,Device,State,x19,Measurement
+x19,Measurement,State_of,Stripper,Device
+Stripper,Device,Output,x37,Measurement
+Stripper,Device,Output,x38,Measurement
+Stripper,Device,Output,x39,Measurement
+Stripper,Device,Output,x40,Measurement
+Stripper,Device,Output,x41,Measurement
+x48,Operating,Output,Stripper,Device
+Stripper,Device,Output,x49,Operating
+Stripper,Device,State,x50,Operating
+x50,Operating,State_of,Stripper,Device
+Compressor,Device,Output,x5,Measurement
+Compressor,Device,State,x20,Measurement
+x20,Measurement,State_of,Compressor,Device
+Compressor,Device,State,x46,Operating
+x46,Operating,State_of,Compressor,Device
+Condenser,Device,State,x52,Operating
+x52,Operating,State_of,Condenser,Device
+Stream 1,Stream,State,x1,Measurement
+x1,Measurement,State_of,Stream 1,Stream
+Stream 1,Stream,State,x44,Operating
+x44,Operating,State_of,Stream 1,Stream
+Stream 2,Stream,State,x2,Measurement
+x2,Measurement,State_of,Stream 2,Stream
+Stream 2,Stream,State,x42,Operating
+x42,Operating,State_of,Stream 2,Stream
+Stream 3,Stream,State,x3,Measurement
+x3,Measurement,State_of,Stream 3,Stream
+Stream 3,Stream,State,x43,Operating
+x43,Operating,State_of,Stream 3,Stream
+Stream 4,Stream,State,x4,Measurement
+x4,Measurement,State_of,Stream 4,Stream
+Stream 4,Stream,State,x45,Operating
+x45,Operating,State_of,Stream 4,Stream
+Stream 6,Stream,State,x6,Measurement
+x6,Measurement,State_of,Stream 6,Stream
+Stream 6,Stream,State,x23,Measurement
+x23,Measurement,State_of,Stream 6,Stream
+Stream 6,Stream,State,x24,Measurement
+x24,Measurement,State_of,Stream 6,Stream
+Stream 6,Stream,State,x25,Measurement
+x25,Measurement,State_of,Stream 6,Stream
+Stream 6,Stream,State,x26,Measurement
+x26,Measurement,State_of,Stream 6,Stream
+Stream 6,Stream,State,x27,Measurement
+x27,Measurement,State_of,Stream 6,Stream
+Stream 6,Stream,State,x28,Measurement
+x28,Measurement,State_of,Stream 6,Stream
+Stream 8,Stream,State,x5,Measurement
+x5,Measurement,State_of,Stream 8,Stream
+Stream 9,Stream,State,x10,Measurement
+x10,Measurement,State_of,Stream 9,Stream
+Stream 9,Stream,State,x47,Operating
+x47,Operating,State_of,Stream 9,Stream
+Stream 9,Stream,State,x29,Measurement
+x29,Measurement,State_of,Stream 9,Stream
+Stream 9,Stream,State,x30,Measurement
+x30,Measurement,State_of,Stream 9,Stream
+Stream 9,Stream,State,x31,Measurement
+x31,Measurement,State_of,Stream 9,Stream
+Stream 9,Stream,State,x32,Measurement
+x32,Measurement,State_of,Stream 9,Stream
+Stream 9,Stream,State,x33,Measurement
+x33,Measurement,State_of,Stream 9,Stream
+Stream 9,Stream,State,x34,Measurement
+x34,Measurement,State_of,Stream 9,Stream
+Stream 9,Stream,State,x35,Measurement
+x35,Measurement,State_of,Stream 9,Stream
+Stream 9,Stream,State,x36,Measurement
+x36,Measurement,State_of,Stream 9,Stream
+Stream 10,Stream,State,x14,Measurement
+x14,Measurement,State_of,Stream 10,Stream
+Stream 10,Stream,State,x48,Operating
+x48,Operating,State_of,Stream 10,Stream
+Stream 11,Stream,State,x17,Measurement
+x17,Measurement,State_of,Stream 11,Stream
+Stream 11,Stream,State,x49,Operating
+x49,Operating,State_of,Stream 11,Stream
+Stream 11,Stream,State,x37,Measurement
+x37,Measurement,State_of,Stream 11,Stream
+Stream 11,Stream,State,x38,Measurement
+x38,Measurement,State_of,Stream 11,Stream
+Stream 11,Stream,State,x39,Measurement
+x39,Measurement,State_of,Stream 11,Stream
+Stream 11,Stream,State,x40,Measurement
+x40,Measurement,State_of,Stream 11,Stream
+Stream 11,Stream,State,x41,Measurement
+x41,Measurement,State_of,Stream 11,Stream
+Stream 12,Stream,State,x21,Measurement
+x21,Measurement,State_of,Stream 12,Stream
+Stream 12,Stream,State,x51,Operating
+x51,Operating,State_of,Stream 12,Stream
+Stream 13,Stream,State,x52,Operating
+x52,Operating,State_of,Stream 13,Stream
+Stream 1,Stream,Output,Stream 6,Stream
+Stream 2,Stream,Output,Stream 6,Stream
+Stream 3,Stream,Output,Stream 6,Stream
+Stream 4,Stream,Output,Stripper,Device
+Condenser,Device,Output,Stream 14,Stream
+Stream 14,Stream,Output,Separator,Device
+Stream 8,Stream,Output,Stream 6,Stream
+Stream 6,Stream,Output,Reactor,Device
+Stream 7,Stream,Output,Condenser,Device
+Reactor,Device,Output,Stream 7,Stream
+Stream 5,Stream,Output,Stream 8,Stream
+Compressor,Device,Output,Stream 8,Stream
+Separator,Device,Output,Stream 9,Stream
+Separator,Device,Output,Stream 10,Stream
+Stream 10,Stream,Output,Stripper,Device
+Stripper,Device,Output,Stream 11,Stream
+Reactor,Device,Output,Stream 12,Stream
+Stream 13,Stream,State_of,Condenser,Device
+Condenser,Device,State,Stream 13,Stream
+Stripper,Device,Output,Stream 5,Stream
+Separator,Device,Output,Compressor,Device
+A,Substance,Generate,G,Substance
+C,Substance,Generate,G,Substance
+D,Substance,Generate,G,Substance
+A,Substance,Generate,H,Substance
+C,Substance,Generate,H,Substance
+E,Substance,Generate,H,Substance
+A,Substance,Generate,F,Substance
+E,Substance,Generate,F,Substance
+D,Substance,Generate,F,Substance
+A,Substance,Contained_by,x1,Measurement
+x1,Measurement,Contain,A,Substance
+A,Substance,Contained_by,x44,Operating
+x44,Operating,Contain,A,Substance
+A,Substance,Contained_by,Stream 1,Stream
+Stream 1,Stream,Contain,A,Substance
+D,Substance,Contained_by,x2,Measurement
+x2,Measurement,Contain,D,Substance
+D,Substance,Contained_by,x42,Operating
+x42,Operating,Contain,D,Substance
+D,Substance,Contained_by,Stream 2,Stream
+Stream 2,Stream,Contain,D,Substance
+E,Substance,Contained_by,x3,Measurement
+x3,Measurement,Contain,E,Substance
+E,Substance,Contained_by,x43,Operating
+x43,Operating,Contain,E,Substance
+E,Substance,Contained_by,Stream 3,Stream
+Stream 3,Stream,Contain,E,Substance
+A,Substance,Contained_by,x4,Measurement
+x4,Measurement,Contain,A,Substance
+A,Substance,Contained_by,x45,Operating
+x45,Operating,Contain,A,Substance
+A,Substance,Contained_by,Stream 4,Stream
+Stream 4,Stream,Contain,A,Substance
+B,Substance,Contained_by,x4,Measurement
+x4,Measurement,Contain,B,Substance
+B,Substance,Contained_by,x45,Operating
+x45,Operating,Contain,B,Substance
+B,Substance,Contained_by,Stream 4,Stream
+Stream 4,Stream,Contain,B,Substance
+C,Substance,Contained_by,x4,Measurement
+x4,Measurement,Contain,C,Substance
+C,Substance,Contained_by,x45,Operating
+x45,Operating,Contain,C,Substance
+C,Substance,Contained_by,Stream 4,Stream
+Stream 4,Stream,Contain,C,Substance
+A,Substance,Contained_by,x23,Measurement
+x23,Measurement,Contain,A,Substance
+B,Substance,Contained_by,x24,Measurement
+x24,Measurement,Contain,B,Substance
+C,Substance,Contained_by,x25,Measurement
+x25,Measurement,Contain,C,Substance
+D,Substance,Contained_by,x26,Measurement
+x26,Measurement,Contain,D,Substance
+E,Substance,Contained_by,x27,Measurement
+x27,Measurement,Contain,E,Substance
+F,Substance,Contained_by,x28,Measurement
+x28,Measurement,Contain,F,Substance
+A,Substance,Contained_by,x29,Measurement
+x29,Measurement,Contain,A,Substance
+B,Substance,Contained_by,x30,Measurement
+x30,Measurement,Contain,B,Substance
+C,Substance,Contained_by,x31,Measurement
+x31,Measurement,Contain,C,Substance
+D,Substance,Contained_by,x32,Measurement
+x32,Measurement,Contain,D,Substance
+E,Substance,Contained_by,x33,Measurement
+x33,Measurement,Contain,E,Substance
+F,Substance,Contained_by,x34,Measurement
+x34,Measurement,Contain,F,Substance
+G,Substance,Contained_by,x35,Measurement
+x35,Measurement,Contain,G,Substance
+H,Substance,Contained_by,x36,Measurement
+x36,Measurement,Contain,H,Substance
+D,Substance,Contained_by,x37,Measurement
+x37,Measurement,Contain,D,Substance
+E,Substance,Contained_by,x38,Measurement
+x38,Measurement,Contain,E,Substance
+F,Substance,Contained_by,x39,Measurement
+x39,Measurement,Contain,F,Substance
+G,Substance,Contained_by,x40,Measurement
+x40,Measurement,Contain,G,Substance
+H,Substance,Contained_by,x41,Measurement
+x41,Measurement,Contain,H,Substance
+A,Substance,Contained_by,Stream 6,Stream
+Stream 6,Stream,Contain,A,Substance
+B,Substance,Contained_by,Stream 6,Stream
+Stream 6,Stream,Contain,B,Substance
+C,Substance,Contained_by,Stream 6,Stream
+Stream 6,Stream,Contain,C,Substance
+D,Substance,Contained_by,Stream 6,Stream
+Stream 6,Stream,Contain,D,Substance
+E,Substance,Contained_by,Stream 6,Stream
+Stream 6,Stream,Contain,E,Substance
+F,Substance,Contained_by,Stream 6,Stream
+Stream 6,Stream,Contain,F,Substance
+A,Substance,Contained_by,Stream 9,Stream
+Stream 9,Stream,Contain,A,Substance
+B,Substance,Contained_by,Stream 9,Stream
+Stream 9,Stream,Contain,B,Substance
+C,Substance,Contained_by,Stream 9,Stream
+Stream 9,Stream,Contain,C,Substance
+D,Substance,Contained_by,Stream 9,Stream
+Stream 9,Stream,Contain,D,Substance
+E,Substance,Contained_by,Stream 9,Stream
+Stream 9,Stream,Contain,E,Substance
+F,Substance,Contained_by,Stream 9,Stream
+Stream 9,Stream,Contain,F,Substance
+G,Substance,Contained_by,Stream 9,Stream
+Stream 9,Stream,Contain,G,Substance
+H,Substance,Contained_by,Stream 9,Stream
+Stream 9,Stream,Contain,H,Substance
+D,Substance,Contained_by,Stream 11,Stream
+Stream 11,Stream,Contain,D,Substance
+E,Substance,Contained_by,Stream 11,Stream
+Stream 11,Stream,Contain,E,Substance
+F,Substance,Contained_by,Stream 11,Stream
+Stream 11,Stream,Contain,F,Substance
+G,Substance,Contained_by,Stream 11,Stream
+Stream 11,Stream,Contain,G,Substance
+H,Substance,Contained_by,Stream 11,Stream
+Stream 11,Stream,Contain,H,Substance

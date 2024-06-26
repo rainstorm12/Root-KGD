@@ -1,0 +1,184 @@
+x6	Output	Reactor
+Reactor	State	x7
+x7	State_of	Reactor
+Reactor	State	x8
+x8	State_of	Reactor
+Reactor	State	x9
+x9	State_of	Reactor
+Reactor	State	x21
+x21	State_of	Reactor
+Reactor	State	x51
+x51	State_of	Reactor
+Separator	State	x11
+x11	State_of	Separator
+Separator	State	x12
+x12	State_of	Separator
+Separator	State	x13
+x13	State_of	Separator
+Separator	Output	x14
+Separator	State	x22
+x22	State_of	Separator
+Separator	Output	x47
+Separator	Output	x48
+Stripper	State	x15
+x15	State_of	Stripper
+Stripper	State	x16
+x16	State_of	Stripper
+Stripper	State	x18
+x18	State_of	Stripper
+Stripper	Output	x17
+Stripper	State	x19
+x19	State_of	Stripper
+x48	Output	Stripper
+Stripper	Output	x49
+Stripper	State	x50
+x50	State_of	Stripper
+Compressor	Output	x5
+Compressor	State	x20
+x20	State_of	Compressor
+Compressor	State	x46
+x46	State_of	Compressor
+Condenser	State	x52
+x52	State_of	Condenser
+Stream 1	State	x1
+x1	State_of	Stream 1
+Stream 1	State	x44
+x44	State_of	Stream 1
+Stream 2	State	x2
+x2	State_of	Stream 2
+Stream 2	State	x42
+x42	State_of	Stream 2
+Stream 3	State	x3
+x3	State_of	Stream 3
+Stream 3	State	x43
+x43	State_of	Stream 3
+Stream 4	State	x4
+x4	State_of	Stream 4
+Stream 4	State	x45
+x45	State_of	Stream 4
+Stream 6	State	x6
+x6	State_of	Stream 6
+Stream 8	State	x5
+x5	State_of	Stream 8
+Stream 9	State	x10
+x10	State_of	Stream 9
+Stream 9	State	x47
+x47	State_of	Stream 9
+Stream 10	State	x14
+x14	State_of	Stream 10
+Stream 10	State	x48
+x48	State_of	Stream 10
+Stream 11	State	x17
+x17	State_of	Stream 11
+Stream 11	State	x49
+x49	State_of	Stream 11
+Stream 12	State	x21
+x21	State_of	Stream 12
+Stream 12	State	x51
+x51	State_of	Stream 12
+Stream 13	State	x52
+x52	State_of	Stream 13
+Stream 1	Output	Stream 6
+Stream 2	Output	Stream 6
+Stream 3	Output	Stream 6
+Stream 4	Output	Stripper
+Condenser	Output	Stream 14
+Stream 14	Output	Separator
+Stream 8	Output	Stream 6
+Stream 6	Output	Reactor
+Stream 7	Output	Condenser
+Reactor	Output	Stream 7
+Stream 5	Output	Stream 8
+Compressor	Output	Stream 8
+Separator	Output	Stream 9
+Separator	Output	Stream 10
+Stream 10	Output	Stripper
+Stripper	Output	Stream 11
+Reactor	Output	Stream 12
+Stream 13	State_of	Condenser
+Condenser	State	Stream 13
+Stripper	Output	Stream 5
+Separator	Output	Compressor
+A	Generate	G
+C	Generate	G
+D	Generate	G
+A	Generate	H
+C	Generate	H
+E	Generate	H
+A	Generate	F
+E	Generate	F
+D	Generate	F
+A	Contained_by	x1
+x1	Contain	A
+A	Contained_by	x44
+x44	Contain	A
+A	Contained_by	Stream 1
+Stream 1	Contain	A
+D	Contained_by	x2
+x2	Contain	D
+D	Contained_by	x42
+x42	Contain	D
+D	Contained_by	Stream 2
+Stream 2	Contain	D
+E	Contained_by	x3
+x3	Contain	E
+E	Contained_by	x43
+x43	Contain	E
+E	Contained_by	Stream 3
+Stream 3	Contain	E
+A	Contained_by	x4
+x4	Contain	A
+A	Contained_by	x45
+x45	Contain	A
+A	Contained_by	Stream 4
+Stream 4	Contain	A
+B	Contained_by	x4
+x4	Contain	B
+B	Contained_by	x45
+x45	Contain	B
+B	Contained_by	Stream 4
+Stream 4	Contain	B
+C	Contained_by	x4
+x4	Contain	C
+C	Contained_by	x45
+x45	Contain	C
+C	Contained_by	Stream 4
+Stream 4	Contain	C
+A	Contained_by	Stream 6
+Stream 6	Contain	A
+B	Contained_by	Stream 6
+Stream 6	Contain	B
+C	Contained_by	Stream 6
+Stream 6	Contain	C
+D	Contained_by	Stream 6
+Stream 6	Contain	D
+E	Contained_by	Stream 6
+Stream 6	Contain	E
+F	Contained_by	Stream 6
+Stream 6	Contain	F
+A	Contained_by	Stream 9
+Stream 9	Contain	A
+B	Contained_by	Stream 9
+Stream 9	Contain	B
+C	Contained_by	Stream 9
+Stream 9	Contain	C
+D	Contained_by	Stream 9
+Stream 9	Contain	D
+E	Contained_by	Stream 9
+Stream 9	Contain	E
+F	Contained_by	Stream 9
+Stream 9	Contain	F
+G	Contained_by	Stream 9
+Stream 9	Contain	G
+H	Contained_by	Stream 9
+Stream 9	Contain	H
+D	Contained_by	Stream 11
+Stream 11	Contain	D
+E	Contained_by	Stream 11
+Stream 11	Contain	E
+F	Contained_by	Stream 11
+Stream 11	Contain	F
+G	Contained_by	Stream 11
+Stream 11	Contain	G
+H	Contained_by	Stream 11
+Stream 11	Contain	H

@@ -1,0 +1,11 @@
+﻿variable,score,stream or device,score
+x4,0.55983,Stream 4,0.55582
+x45,0.55701,Stream 1,0.52006
+x1,0.52369,Compressor,0.50979
+x44,0.52341,Stripper,0.50052
+x20,0.51637,Stream 14,0.4919
+x50,0.5116,Separator,0.4919
+x46,0.50934,Stream 10,0.49124
+x19,0.50638,Stream 6,0.48299
+x16,0.50448,Stream 8,0.47883
+x15,0.50116,Stream 5,0.47825

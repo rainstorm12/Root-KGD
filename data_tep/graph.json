@@ -1,0 +1,439 @@
+{
+    "x6": {
+        "Reactor": "Output",
+        "Stream 6": "State_of"
+    },
+    "Reactor": {
+        "x7": "State",
+        "x8": "State",
+        "x9": "State",
+        "x21": "State",
+        "x51": "State",
+        "Stream 7": "Output",
+        "Stream 12": "Output"
+    },
+    "x7": {
+        "Reactor": "State_of"
+    },
+    "x8": {
+        "Reactor": "State_of"
+    },
+    "x9": {
+        "Reactor": "State_of"
+    },
+    "x21": {
+        "Reactor": "State_of",
+        "Stream 12": "State_of"
+    },
+    "x23": {
+        "Reactor": "Output",
+        "Stream 6": "State_of",
+        "A": "Contain"
+    },
+    "x24": {
+        "Reactor": "Output",
+        "Stream 6": "State_of",
+        "B": "Contain"
+    },
+    "x25": {
+        "Reactor": "Output",
+        "Stream 6": "State_of",
+        "C": "Contain"
+    },
+    "x26": {
+        "Reactor": "Output",
+        "Stream 6": "State_of",
+        "D": "Contain"
+    },
+    "x27": {
+        "Reactor": "Output",
+        "Stream 6": "State_of",
+        "E": "Contain"
+    },
+    "x28": {
+        "Reactor": "Output",
+        "Stream 6": "State_of",
+        "F": "Contain"
+    },
+    "x51": {
+        "Reactor": "State_of",
+        "Stream 12": "State_of"
+    },
+    "Separator": {
+        "x11": "State",
+        "x12": "State",
+        "x13": "State",
+        "x14": "Output",
+        "x22": "State",
+        "x29": "Output",
+        "x30": "Output",
+        "x31": "Output",
+        "x32": "Output",
+        "x33": "Output",
+        "x34": "Output",
+        "x35": "Output",
+        "x36": "Output",
+        "x47": "Output",
+        "x48": "Output",
+        "Stream 9": "Output",
+        "Stream 10": "Output",
+        "Compressor": "Output"
+    },
+    "x11": {
+        "Separator": "State_of"
+    },
+    "x12": {
+        "Separator": "State_of"
+    },
+    "x13": {
+        "Separator": "State_of"
+    },
+    "x14": {
+        "Stream 10": "State_of"
+    },
+    "x22": {
+        "Separator": "State_of"
+    },
+    "x29": {
+        "Stream 9": "State_of",
+        "A": "Contain"
+    },
+    "x30": {
+        "Stream 9": "State_of",
+        "B": "Contain"
+    },
+    "x31": {
+        "Stream 9": "State_of",
+        "C": "Contain"
+    },
+    "x32": {
+        "Stream 9": "State_of",
+        "D": "Contain"
+    },
+    "x33": {
+        "Stream 9": "State_of",
+        "E": "Contain"
+    },
+    "x34": {
+        "Stream 9": "State_of",
+        "F": "Contain"
+    },
+    "x35": {
+        "Stream 9": "State_of",
+        "G": "Contain"
+    },
+    "x36": {
+        "Stream 9": "State_of",
+        "H": "Contain"
+    },
+    "x47": {
+        "Stream 9": "State_of"
+    },
+    "x48": {
+        "Stripper": "Output",
+        "Stream 10": "State_of"
+    },
+    "Stripper": {
+        "x15": "State",
+        "x16": "State",
+        "x18": "State",
+        "x17": "Output",
+        "x19": "State",
+        "x37": "Output",
+        "x38": "Output",
+        "x39": "Output",
+        "x40": "Output",
+        "x41": "Output",
+        "x49": "Output",
+        "x50": "State",
+        "Stream 11": "Output",
+        "Stream 5": "Output"
+    },
+    "x15": {
+        "Stripper": "State_of"
+    },
+    "x16": {
+        "Stripper": "State_of"
+    },
+    "x18": {
+        "Stripper": "State_of"
+    },
+    "x17": {
+        "Stream 11": "State_of"
+    },
+    "x19": {
+        "Stripper": "State_of"
+    },
+    "x37": {
+        "Stream 11": "State_of",
+        "D": "Contain"
+    },
+    "x38": {
+        "Stream 11": "State_of",
+        "E": "Contain"
+    },
+    "x39": {
+        "Stream 11": "State_of",
+        "F": "Contain"
+    },
+    "x40": {
+        "Stream 11": "State_of",
+        "G": "Contain"
+    },
+    "x41": {
+        "Stream 11": "State_of",
+        "H": "Contain"
+    },
+    "x49": {
+        "Stream 11": "State_of"
+    },
+    "x50": {
+        "Stripper": "State_of"
+    },
+    "Compressor": {
+        "x5": "Output",
+        "x20": "State",
+        "x46": "State",
+        "Stream 8": "Output"
+    },
+    "x5": {
+        "Stream 8": "State_of"
+    },
+    "x20": {
+        "Compressor": "State_of"
+    },
+    "x46": {
+        "Compressor": "State_of"
+    },
+    "Condenser": {
+        "x52": "State",
+        "Stream 14": "Output",
+        "Stream 13": "State"
+    },
+    "x52": {
+        "Condenser": "State_of",
+        "Stream 13": "State_of"
+    },
+    "Stream 1": {
+        "x1": "State",
+        "x44": "State",
+        "Stream 6": "Output",
+        "A": "Contain"
+    },
+    "x1": {
+        "Stream 1": "State_of",
+        "A": "Contain"
+    },
+    "x44": {
+        "Stream 1": "State_of",
+        "A": "Contain"
+    },
+    "Stream 2": {
+        "x2": "State",
+        "x42": "State",
+        "Stream 6": "Output",
+        "D": "Contain"
+    },
+    "x2": {
+        "Stream 2": "State_of",
+        "D": "Contain"
+    },
+    "x42": {
+        "Stream 2": "State_of",
+        "D": "Contain"
+    },
+    "Stream 3": {
+        "x3": "State",
+        "x43": "State",
+        "Stream 6": "Output",
+        "E": "Contain"
+    },
+    "x3": {
+        "Stream 3": "State_of",
+        "E": "Contain"
+    },
+    "x43": {
+        "Stream 3": "State_of",
+        "E": "Contain"
+    },
+    "Stream 4": {
+        "x4": "State",
+        "x45": "State",
+        "Stripper": "Output",
+        "A": "Contain",
+        "B": "Contain",
+        "C": "Contain"
+    },
+    "x4": {
+        "Stream 4": "State_of",
+        "A": "Contain",
+        "B": "Contain",
+        "C": "Contain"
+    },
+    "x45": {
+        "Stream 4": "State_of",
+        "A": "Contain",
+        "B": "Contain",
+        "C": "Contain"
+    },
+    "Stream 6": {
+        "x6": "State",
+        "x23": "State",
+        "x24": "State",
+        "x25": "State",
+        "x26": "State",
+        "x27": "State",
+        "x28": "State",
+        "Reactor": "Output",
+        "A": "Contain",
+        "B": "Contain",
+        "C": "Contain",
+        "D": "Contain",
+        "E": "Contain",
+        "F": "Contain"
+    },
+    "Stream 8": {
+        "x5": "State",
+        "Stream 6": "Output"
+    },
+    "Stream 9": {
+        "x10": "State",
+        "x47": "State",
+        "x29": "State",
+        "x30": "State",
+        "x31": "State",
+        "x32": "State",
+        "x33": "State",
+        "x34": "State",
+        "x35": "State",
+        "x36": "State",
+        "A": "Contain",
+        "B": "Contain",
+        "C": "Contain",
+        "D": "Contain",
+        "E": "Contain",
+        "F": "Contain",
+        "G": "Contain",
+        "H": "Contain"
+    },
+    "x10": {
+        "Stream 9": "State_of"
+    },
+    "Stream 10": {
+        "x14": "State",
+        "x48": "State",
+        "Stripper": "Output"
+    },
+    "Stream 11": {
+        "x17": "State",
+        "x49": "State",
+        "x37": "State",
+        "x38": "State",
+        "x39": "State",
+        "x40": "State",
+        "x41": "State",
+        "D": "Contain",
+        "E": "Contain",
+        "F": "Contain",
+        "G": "Contain",
+        "H": "Contain"
+    },
+    "Stream 12": {
+        "x21": "State",
+        "x51": "State"
+    },
+    "Stream 13": {
+        "x52": "State",
+        "Condenser": "State_of"
+    },
+    "Stream 14": {
+        "Separator": "Output"
+    },
+    "Stream 7": {
+        "Condenser": "Output"
+    },
+    "Stream 5": {
+        "Stream 8": "Output"
+    },
+    "A": {
+        "G": "Generate",
+        "H": "Generate",
+        "F": "Generate",
+        "x1": "Contained_by",
+        "x44": "Contained_by",
+        "Stream 1": "Contained_by",
+        "x4": "Contained_by",
+        "x45": "Contained_by",
+        "Stream 4": "Contained_by",
+        "x23": "Contained_by",
+        "x29": "Contained_by",
+        "Stream 6": "Contained_by",
+        "Stream 9": "Contained_by"
+    },
+    "G": {
+        "x35": "Contained_by",
+        "x40": "Contained_by",
+        "Stream 9": "Contained_by",
+        "Stream 11": "Contained_by"
+    },
+    "C": {
+        "G": "Generate",
+        "H": "Generate",
+        "x4": "Contained_by",
+        "x45": "Contained_by",
+        "Stream 4": "Contained_by",
+        "x25": "Contained_by",
+        "x31": "Contained_by",
+        "Stream 6": "Contained_by",
+        "Stream 9": "Contained_by"
+    },
+    "D": {
+        "G": "Generate",
+        "F": "Generate",
+        "x2": "Contained_by",
+        "x42": "Contained_by",
+        "Stream 2": "Contained_by",
+        "x26": "Contained_by",
+        "x32": "Contained_by",
+        "x37": "Contained_by",
+        "Stream 6": "Contained_by",
+        "Stream 9": "Contained_by",
+        "Stream 11": "Contained_by"
+    },
+    "H": {
+        "x36": "Contained_by",
+        "x41": "Contained_by",
+        "Stream 9": "Contained_by",
+        "Stream 11": "Contained_by"
+    },
+    "E": {
+        "H": "Generate",
+        "F": "Generate",
+        "x3": "Contained_by",
+        "x43": "Contained_by",
+        "Stream 3": "Contained_by",
+        "x27": "Contained_by",
+        "x33": "Contained_by",
+        "x38": "Contained_by",
+        "Stream 6": "Contained_by",
+        "Stream 9": "Contained_by",
+        "Stream 11": "Contained_by"
+    },
+    "F": {
+        "x28": "Contained_by",
+        "x34": "Contained_by",
+        "x39": "Contained_by",
+        "Stream 6": "Contained_by",
+        "Stream 9": "Contained_by",
+        "Stream 11": "Contained_by"
+    },
+    "B": {
+        "x4": "Contained_by",
+        "x45": "Contained_by",
+        "Stream 4": "Contained_by",
+        "x24": "Contained_by",
+        "x30": "Contained_by",
+        "Stream 6": "Contained_by",
+        "Stream 9": "Contained_by"
+    }
+}

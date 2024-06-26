@@ -1,0 +1,31 @@
+﻿Index,Variable Location,Variable Description,Variable Type,Variable Units,变量描述,变量类型
+x1,PT312,Air delivery pressure,Pressure,Mpa,空气输送压力,压力
+x2,PT401,Pressure in the bottom of the riser,Pressure,Mpa,立管底部的压力,压力
+x3,PT408,Pressure in top of the riser,Pressure,MPa,立管顶部的压力,压力
+x4,PT403,Pressure in top separator,Pressure,Mpa,顶部分离器中的压力,压力
+x5,PT501,Pressure in 3 phase separator,Pressure,Mpa,三相分离器中的压力,压力
+x6,PT408,Diff. pressure (PT401-PT408),Pressure,MPa,压差（PT401-PT408）,压力
+x7,PT403,Differential pressure over VC404,Pressure,Mpa,压差 VC404上面,压力
+x8,FT305,Flow rate input air,Flow,Sm3/s,输入空气流量,流量
+x9,FT104,Flow rate input water,Flow,kg/s,输入水流量,流量
+x10,FT407,Flow rate top riser,Flow,kg/s,顶部立管流量,流量
+x11,LI405,Level top separator,Level,m,顶部分离器的液位,液位
+x12,FT406,Flow rate top separator output,Flow,kg/s,顶部分离区输出的流量,流量
+x13,FT407,Density top riser,Density,kg/m3,顶部立管密度,密度
+x14,FT406,Density top separator output,Density,kg/m3,顶部分离器输出的密度,密度
+x15,FT104,Density water input,Density,kg/m3,输入水的密度,密度
+x16,FT407,Temperature top riser,Temperature,°C,顶部立管温度,温度
+x17,FT406,Temperature top separator output,Temperature,°C,顶部分离器输出的温度,温度
+x18,FT104,Temperature water input,Temperature,°C,输入水的温度,温度
+x19,LI504,Level gas-liquid 3 phase separator,Level,%,气液三相分离器的液位,液位
+x20,VC501,Position of valve VC501,Valve opening,%,VC501的位置,阀门开度
+x21,VC302,Position of valve VC302,Valve opening,%,VC302的位置,阀门开度
+x22,VC101,Position of valve VC101,Valve opening,%,VC101的位置,阀门开度
+x23,PO1,Water pump current,Current,A,水泵电流,电流
+x24,PT417,Pressure in mixture zone 2” line,Pressure,Mpa,混合物区2“管线中的压力,压力
+i1,,Air line blockage,Incipient,,空气管路堵塞,
+i2,,Water line blockage,Incipient,,水管线堵塞,
+i3,,Top separator input blockage,Incipient,,顶部分离器输入堵塞,
+i4,,Open direct bypass,Incipient,,打开直接旁路,
+i5,,Slugging conditions,Intermittent,,阻塞条件,
+i6,,Pressurization of the 2” line,Abrupt,,2“管线的加压,

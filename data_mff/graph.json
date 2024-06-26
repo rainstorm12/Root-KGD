@@ -1,0 +1,284 @@
+{
+    "CO500": {
+        "T100": "Output",
+        "oil": "Contain",
+        "water": "Contain"
+    },
+    "T100": {
+        "PO1": "Output",
+        "water": "Contain"
+    },
+    "PO1": {
+        "VC101": "Output",
+        "x23": "State",
+        "water": "Contain"
+    },
+    "VC101": {
+        "Stream 1": "Output",
+        "x22": "State",
+        "water": "Contain"
+    },
+    "Stream 1": {
+        "Stream 10 bottom": "Output",
+        "Stream 4 bottom": "Output",
+        "x9": "State",
+        "x15": "State",
+        "x18": "State",
+        "water": "Contain"
+    },
+    "CW500": {
+        "T200": "Output",
+        "oil": "Contain",
+        "water": "Contain"
+    },
+    "T200": {
+        "PO2": "Output",
+        "oil": "Contain"
+    },
+    "PO2": {
+        "VC201": "Output",
+        "oil": "Contain"
+    },
+    "VC201": {
+        "Stream 2": "Output",
+        "oil": "Contain"
+    },
+    "Stream 2": {
+        "Stream 10 bottom": "Output",
+        "Stream 4 bottom": "Output",
+        "oil": "Contain"
+    },
+    "R300": {
+        "VC302": "Output",
+        "air": "Contain"
+    },
+    "VC302": {
+        "Stream 3": "Output",
+        "x21": "State",
+        "air": "Contain"
+    },
+    "Stream 3": {
+        "Stream 10 bottom": "Output",
+        "Stream 4 bottom": "Output",
+        "x1": "State",
+        "x8": "State",
+        "air": "Contain"
+    },
+    "Stream 10 bottom": {
+        "Stream 10": "Output",
+        "x2": "State"
+    },
+    "Stream 4 bottom": {
+        "Stream 4": "Output",
+        "x24": "State"
+    },
+    "Stream 10": {
+        "Stream 10 top": "Output",
+        "x6": "State",
+        "water": "Contain",
+        "oil": "Contain",
+        "air": "Contain"
+    },
+    "Stream 10 top": {
+        "Stream 5": "Output",
+        "x3": "State",
+        "x10": "State",
+        "x13": "State",
+        "x16": "State"
+    },
+    "Stream 4": {
+        "Stream 4 top": "Output",
+        "water": "Contain",
+        "oil": "Contain",
+        "air": "Contain"
+    },
+    "Stream 4 top": {
+        "Stream 11": "Output"
+    },
+    "Stream 5": {
+        "VC404": "Output"
+    },
+    "VC404": {
+        "2 Phase Separator": "Output",
+        "x7": "State",
+        "water": "Contain",
+        "oil": "Contain",
+        "air": "Contain"
+    },
+    "2 Phase Separator": {
+        "VC401": "Output",
+        "Stream 7": "Output",
+        "x4": "State",
+        "x7": "State",
+        "x11": "State",
+        "water": "Contain",
+        "oil": "Contain"
+    },
+    "Stream 11": {
+        "VC403": "Output"
+    },
+    "VC403": {
+        "2 Phase Separator": "Output",
+        "water": "Contain",
+        "oil": "Contain",
+        "air": "Contain"
+    },
+    "VC401": {
+        "Stream 6": "Output",
+        "air": "Contain"
+    },
+    "Stream 6": {
+        "3 Phase Separator": "Output",
+        "air": "Contain"
+    },
+    "3 Phase Separator": {
+        "Stream 8": "Output",
+        "Stream 9": "Output",
+        "x5": "State",
+        "x19": "State",
+        "x20": "State",
+        "water": "Contain",
+        "oil": "Contain",
+        "air": "Contain"
+    },
+    "Stream 7": {
+        "VC402": "Output",
+        "x12": "State",
+        "x14": "State",
+        "x17": "State",
+        "water": "Contain",
+        "oil": "Contain"
+    },
+    "VC402": {
+        "3 Phase Separator": "Output",
+        "water": "Contain",
+        "oil": "Contain"
+    },
+    "Stream 8": {
+        "CW500": "Output",
+        "water": "Contain"
+    },
+    "Stream 9": {
+        "CO500": "Output",
+        "oil": "Contain"
+    },
+    "x1": {
+        "Stream 3": "State_of"
+    },
+    "x2": {
+        "Stream 10 bottom": "State_of"
+    },
+    "x3": {
+        "Stream 10 top": "State_of"
+    },
+    "x4": {
+        "2 Phase Separator": "State_of"
+    },
+    "x5": {
+        "3 Phase Separator": "State_of"
+    },
+    "x6": {
+        "Stream 10": "State_of"
+    },
+    "x7": {
+        "VC404": "State_of",
+        "2 Phase Separator": "State_of"
+    },
+    "x8": {
+        "Stream 3": "State_of"
+    },
+    "x9": {
+        "Stream 1": "State_of"
+    },
+    "x10": {
+        "Stream 10 top": "State_of"
+    },
+    "x11": {
+        "2 Phase Separator": "State_of"
+    },
+    "x12": {
+        "Stream 7": "State_of"
+    },
+    "x13": {
+        "Stream 10 top": "State_of"
+    },
+    "x14": {
+        "Stream 7": "State_of"
+    },
+    "x15": {
+        "Stream 1": "State_of"
+    },
+    "x16": {
+        "Stream 10 top": "State_of"
+    },
+    "x17": {
+        "Stream 7": "State_of"
+    },
+    "x18": {
+        "Stream 1": "State_of"
+    },
+    "x19": {
+        "3 Phase Separator": "State_of"
+    },
+    "x20": {
+        "3 Phase Separator": "State_of"
+    },
+    "x21": {
+        "VC302": "State_of"
+    },
+    "x22": {
+        "VC101": "State_of"
+    },
+    "x23": {
+        "PO1": "State_of"
+    },
+    "x24": {
+        "Stream 4 bottom": "State_of"
+    },
+    "oil": {
+        "CO500": "Contained_by",
+        "CW500": "Contained_by",
+        "T200": "Contained_by",
+        "PO2": "Contained_by",
+        "VC201": "Contained_by",
+        "Stream 2": "Contained_by",
+        "Stream 10": "Contained_by",
+        "Stream 4": "Contained_by",
+        "VC403": "Contained_by",
+        "VC404": "Contained_by",
+        "2 Phase Separator": "Contained_by",
+        "Stream 7": "Contained_by",
+        "VC402": "Contained_by",
+        "3 Phase Separator": "Contained_by",
+        "Stream 9": "Contained_by"
+    },
+    "water": {
+        "CO500": "Contained_by",
+        "CW500": "Contained_by",
+        "T100": "Contained_by",
+        "PO1": "Contained_by",
+        "VC101": "Contained_by",
+        "Stream 1": "Contained_by",
+        "Stream 10": "Contained_by",
+        "Stream 4": "Contained_by",
+        "VC403": "Contained_by",
+        "VC404": "Contained_by",
+        "2 Phase Separator": "Contained_by",
+        "Stream 7": "Contained_by",
+        "VC402": "Contained_by",
+        "3 Phase Separator": "Contained_by",
+        "Stream 8": "Contained_by"
+    },
+    "air": {
+        "R300": "Contained_by",
+        "VC302": "Contained_by",
+        "Stream 3": "Contained_by",
+        "Stream 10": "Contained_by",
+        "Stream 4": "Contained_by",
+        "VC403": "Contained_by",
+        "VC404": "Contained_by",
+        "VC401": "Contained_by",
+        "Stream 6": "Contained_by",
+        "3 Phase Separator": "Contained_by"
+    }
+}

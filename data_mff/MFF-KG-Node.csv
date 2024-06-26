@@ -1,0 +1,59 @@
+﻿Node,Type
+2 Phase Separator,Device
+3 Phase Separator,Device
+CO500,Device
+T100,Device
+PO1,Device
+VC101,Device
+CW500,Device
+T200,Device
+PO2,Device
+VC201,Device
+R300,Device
+VC302,Device
+VC401,Device
+VC402,Device
+VC403,Device
+VC404,Device
+Stream 1,Stream
+Stream 2,Stream
+Stream 3,Stream
+Stream 4,Stream
+Stream 4 top,Stream
+Stream 4 bottom,Stream
+Stream 5,Stream
+Stream 6,Stream
+Stream 7,Stream
+Stream 8,Stream
+Stream 9,Stream
+Stream 10,Stream
+Stream 10 top,Stream
+Stream 10 bottom,Stream
+Stream 11,Stream
+water,Substance
+oil,Substance
+air,Substance
+x1,Variable
+x2,Variable
+x3,Variable
+x4,Variable
+x5,Variable
+x6,Variable
+x7,Variable
+x8,Variable
+x9,Variable
+x10,Variable
+x11,Variable
+x12,Variable
+x13,Variable
+x14,Variable
+x15,Variable
+x16,Variable
+x17,Variable
+x18,Variable
+x19,Variable
+x20,Variable
+x21,Variable
+x22,Variable
+x23,Variable
+x24,Variable
