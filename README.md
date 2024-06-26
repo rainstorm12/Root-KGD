@@ -1,10 +1,19 @@
+# Root-KGD
+
+我们提供了论文的代码及数据（[Root-KGI: a Novel Framework for Root Cause Diagnosis Based on Knowledge Graph and Industrial Data](https://arxiv.org/abs/2406.13664)）
+
 ## 项目背景
 
 1. 考虑到目前全网虽然有很多对TE数据集的简单介绍，但是目前有太多TE数据集相关的工作，相关资源已经超过最初的数据集，而很少有人对此进行系统化介绍，本项目致力于对TE数据集进行详细的、系统化的说明。
-
 2. 目前工业知识图谱没有统一的形式和规范，本项目希望基于TE数据集建立知识图谱。
+3. 基于建立的知识图谱，我们设计了一种工业数据和知识图谱联合驱动的故障根因诊断框架
+
+## 项目框架
+
+![](./paper_img/Root-KGD.png)
 
 ## 项目目录
+
 ```bash
 .
 ├── README.md
@@ -32,7 +41,8 @@
     ├── TEP-KG-raw.csv                              (TEP图谱原始数据)
     └── triples.csv                                 (TEP知识图谱处理版)
 ├── data_mff/                                       (MFF相关数据)
-└── main.py                                         (主函数)
+├── fig/                                            (算法结果保存位置)
+└── main.ipynb                                      (主函数)
 ```
 
 ## 项目可视化
@@ -42,14 +52,13 @@
     <img src="data_tep/common-data/static graph.png" alt="graph" width="600"/>
 </p>
 
-## 项目参考文档
 
-#### TEP先验知识构建图谱（reference.txt）
-[1] Chi, Y., Wang, Z.J. and Leung, V.C., 2021. Distributed knowledge inference framework for intelligent fault diagnosis in IIoT systems. IEEE Transactions on Network Science and Engineering, 9(5), pp.3152-3165.
+## 项目结果示例
 
-#### TEP时序数据构建图谱、归一化互信息熵计算（tep_nmi.py）
-[1] Ren, H., Chen, Z., Jiang, Z., Yang, C. and Gui, W., 2021. An industrial multilevel knowledge graph-based local–global monitoring for plant-wide processes. IEEE Transactions on Instrumentation and Measurement, 70, pp.1-15.
+TEP故障1结果示例
 
-## 项目展望
+![](./fig/tep/d01_te/Stream_Device_score.png)
 
-引入知识图谱推理方法实现故障根因诊断...
+
+
+![](./fig/tep/d01_te/Variable_score.png)
